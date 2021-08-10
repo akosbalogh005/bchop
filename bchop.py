@@ -112,7 +112,6 @@ def bchop_loop2(target : int, arr : list) -> int:
     """
     pstart = 0
     pend = len(arr)-1
-    pos = -1
         
     while pstart <= pend:
         pmid = int((pend + pstart) / 2)
