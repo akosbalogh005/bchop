@@ -170,6 +170,6 @@ func bChopSplitterFunc2(arr IntList) (IntList, int, int, IntList) {
 }
 
 func main() {
-	ret, err := BChopSplitter2(6, []int{1, 3, 5, 6})
+	ret, err := BChopSplitter(3, []int{1, 3, 3, 5, 6})
 	fmt.Printf("Result: %v, error: %v", ret, err)
 }
